@@ -50,10 +50,17 @@ public class Target : MonoBehaviour
     {
         return new Vector3(Random.Range(-xBounds, xBounds), yBounds);
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        
+        Destroy(gameObject);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Kill Zone"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 }
