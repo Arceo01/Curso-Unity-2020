@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Kill Zone
   - Background
+  - Good
+  - Bad
+  - Death
   layers:
   - Default
   - TransparentFX

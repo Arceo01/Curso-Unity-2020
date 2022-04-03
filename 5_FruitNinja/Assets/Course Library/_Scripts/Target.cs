@@ -12,6 +12,9 @@ public class Target : MonoBehaviour
     private float xBounds = 4;
     private float yBounds = -5;
     private GameManager gameManager;
+    public int pointValue;
+    private int penalization = 10;
+    public ParticleSystem explosionParticles;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,15 +58,28 @@ public class Target : MonoBehaviour
     private void OnMouseDown()
     {
         Destroy(gameObject);
-        gameManager.UpdateScore(5);
+       Instantiate(explosionParticles,transform.position,explosionParticles.transform.rotation);
+        gameManager.UpdateScore(pointValue);
+        if (gameObject.CompareTag("Death"))
+        {
+            gameManager.GameOver();
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Kill Zone"))
         {
             Destroy(gameObject);
+            if (gameObject.CompareTag("Good") )
+            {
+                gameManager.UpdateScore(-penalization);
+                gameManager.GameOver();
+
+            }
         }
+
     }
+
 
 
 }

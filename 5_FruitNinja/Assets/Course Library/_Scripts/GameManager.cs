@@ -5,10 +5,25 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public TextMeshProUGUI gameOverText;
     public List<GameObject> targetPrefabs;
     private float spawnRate = 1.0f;
     public TextMeshProUGUI scoreText;
-    private int score;
+    private int _score;
+    private int score
+
+    {
+        set
+        {
+            _score = Mathf.Clamp(value, 0,9999);
+        }
+        get
+        {
+            return _score;
+        }
+    }
+        
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,5 +52,10 @@ public class GameManager : MonoBehaviour
     {
         score += scoreToAdd;
         scoreText.text = "Score: \n" + score;
+    }
+
+    public void GameOver()
+    {
+        gameOverText.gameObject.SetActive(true);
     }
 }
