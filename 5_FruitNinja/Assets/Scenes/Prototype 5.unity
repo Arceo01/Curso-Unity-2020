@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 47538120}
   - component: {fileID: 47538119}
   - component: {fileID: 47538118}
+  - component: {fileID: 47538121}
   m_Layer: 5
   m_Name: Medium
   m_TagString: Untagged
@@ -206,19 +207,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 47538119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2078045454}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &47538119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +246,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47538116}
   m_CullTransparentMesh: 1
+--- !u!114 &47538121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47538116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e89a18e3be0bb1468ff83925672b7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &145315796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,7 +1677,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 50
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 1
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -1735,6 +1736,7 @@ GameObject:
   - component: {fileID: 1386887615}
   - component: {fileID: 1386887614}
   - component: {fileID: 1386887613}
+  - component: {fileID: 1386887616}
   m_Layer: 5
   m_Name: Easy
   m_TagString: Untagged
@@ -1805,19 +1807,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1386887614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2078045454}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1386887614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1856,6 +1846,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386887611}
   m_CullTransparentMesh: 1
+--- !u!114 &1386887616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386887611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e89a18e3be0bb1468ff83925672b7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1611319330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,6 +1966,7 @@ GameObject:
   - component: {fileID: 1679734334}
   - component: {fileID: 1679734333}
   - component: {fileID: 1679734332}
+  - component: {fileID: 1679734335}
   m_Layer: 5
   m_Name: Hard
   m_TagString: Untagged
@@ -2034,19 +2037,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1679734333}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2078045454}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1679734333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2076,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679734330}
   m_CullTransparentMesh: 1
+--- !u!114 &1679734335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679734330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e89a18e3be0bb1468ff83925672b7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1829648827
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2347,7 @@ MonoBehaviour:
   - {fileID: 7650951320515922015, guid: a463578001389ca49a3c98235e396e63, type: 3}
   scoreText: {fileID: 599860880}
   restartButton: {fileID: 418993227}
+  titleScreen: {fileID: 1330701786}
 --- !u!4 &2078045455
 Transform:
   m_ObjectHideFlags: 0

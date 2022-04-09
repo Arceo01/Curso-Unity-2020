@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Button restartButton;
     private int _score;
+    public GameObject titleScreen;
     private int score
 
     {
@@ -32,13 +33,17 @@ public class GameManager : MonoBehaviour
     }
         
 
-    // Start is called before the first frame update
-    void Start()
+/// <summary>
+/// Start the gameplay changing the value of the state of the game
+/// </summary>
+    public void StartGame()
     {
         gameState = GameState.inGame;
-        StartCoroutine (SpawnTarget());
+        StartCoroutine(SpawnTarget());
         score = 0;
         UpdateScore(0);
+        titleScreen.gameObject.SetActive(false);
+
     }
     /// <summary>
     /// Spawns a random object from a list
