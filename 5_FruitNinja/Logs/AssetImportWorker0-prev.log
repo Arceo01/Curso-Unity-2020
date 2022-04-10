@@ -15,11 +15,11 @@ C:/Users/BTO/Documents/Unity_Proyecto1/Curso-Unity-2020/5_FruitNinja
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63878
+56323
 Successfully changed project path to: C:/Users/BTO/Documents/Unity_Proyecto1/Curso-Unity-2020/5_FruitNinja
 C:/Users/BTO/Documents/Unity_Proyecto1/Curso-Unity-2020/5_FruitNinja
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 142.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 276.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,95 +35,361 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005921 seconds.
+Registered in 0.005528 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 153.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 322.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.137 seconds
+- Completed reload, in 13.339 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007888 seconds.
+Registered in 0.015772 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.995 seconds
+- Completed reload, in  2.649 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2716 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.4 MB.
-System memory in use after: 101.6 MB.
+Unloading 2717 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3168.
-Total: 5.598600 ms (FindLiveObjects: 0.923200 ms CreateObjectMapping: 0.740000 ms MarkObjects: 3.685900 ms  DeleteObjects: 0.189700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3169.
+Total: 6.037200 ms (FindLiveObjects: 0.809200 ms CreateObjectMapping: 0.373200 ms MarkObjects: 4.667800 ms  DeleteObjects: 0.183400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Course Library/Fonts/Roboto_Condensed
-  artifactKey: Guid(f79f4af7aebfe4e278101038c1759971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Fonts/Roboto_Condensed using Guid(f79f4af7aebfe4e278101038c1759971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9699ec94aa4782d80ec156b76f5dfbc8') in 0.024288 seconds 
+  path: Assets/Course Library/_Scripts/GameManager.cs
+  artifactKey: Guid(984fdd4d4f246c348b57c40229617bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Scripts/GameManager.cs using Guid(984fdd4d4f246c348b57c40229617bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7781ae528341ef195dd8f522d46c2740') in 0.065633 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.154 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3172.
+Total: 4.462100 ms (FindLiveObjects: 0.519900 ms CreateObjectMapping: 0.217900 ms MarkObjects: 3.584900 ms  DeleteObjects: 0.136400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3175.
+Total: 4.306800 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.277600 ms MarkObjects: 3.350900 ms  DeleteObjects: 0.110800 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 15.160494 seconds.
-  path: Assets/Fonts/Good Brush.otf
-  artifactKey: Guid(9c56acf4d58898e4087dbf6a155799e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Good Brush.otf using Guid(9c56acf4d58898e4087dbf6a155799e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153e4dbe8be233f1d2d2075c62ddc57b') in 0.349588 seconds 
+  Time since last request: 1283.191873 seconds.
+  path: Assets/Course Library/Textures/kisspng-ham-sandwich-cheese-sandwich-clip-art-free-scroll-clipart-round-design-download-free-cl-5cfb0bca648649.6884352715599564264118.jpg
+  artifactKey: Guid(a21fe654f2eb7bf4da79d392bcf4aa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/kisspng-ham-sandwich-cheese-sandwich-clip-art-free-scroll-clipart-round-design-download-free-cl-5cfb0bca648649.6884352715599564264118.jpg using Guid(a21fe654f2eb7bf4da79d392bcf4aa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131cb5fa34c59c42cdd9aecff1db84c1') in 0.280849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Fonts/Good Brush.ttf
-  artifactKey: Guid(89675d6a2e199c143aef157775778865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Good Brush.ttf using Guid(89675d6a2e199c143aef157775778865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e972f3c78a043c373a92bb1c8f7dd536') in 0.040911 seconds 
+  Time since last request: 0.000629 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2db43559938d00ca1ad88a69cf3a57') in 0.082622 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.063215 seconds.
-  path: Assets/Fonts/Good Brush SDF.asset
-  artifactKey: Guid(61e34980d49a9584cbfd04895fcef36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Good Brush SDF.asset using Guid(61e34980d49a9584cbfd04895fcef36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbf22dd9139b9f583ec3ae1f275bd45') in 0.099290 seconds 
+  Time since last request: 83.484030 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e24dee2a1387e291fa0a7e43e796a2') in 0.070417 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 4.702100 ms (FindLiveObjects: 0.591800 ms CreateObjectMapping: 0.246800 ms MarkObjects: 3.688400 ms  DeleteObjects: 0.168200 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 42.888390 seconds.
-  path: Assets/Fonts/Good Brush SDF 1.asset
-  artifactKey: Guid(0f570ba9ddc6e5a4cbf75d5a99ad9909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Good Brush SDF 1.asset using Guid(0f570ba9ddc6e5a4cbf75d5a99ad9909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d46fbf422274c5567b59f73e065af') in 0.055720 seconds 
+  Time since last request: 87.097544 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaac10141ddccabc1eb916466ba7ba9') in 0.097966 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3244.
+Total: 5.045000 ms (FindLiveObjects: 0.559800 ms CreateObjectMapping: 0.675200 ms MarkObjects: 3.685500 ms  DeleteObjects: 0.122000 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 145.677465 seconds.
-  path: Assets/Fonts/TMP/Good Brush SDF.asset
-  artifactKey: Guid(b77e967820076054292a67433a359ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/TMP/Good Brush SDF.asset using Guid(b77e967820076054292a67433a359ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf3ed68f5df343173226d63899c145') in 0.060105 seconds 
+  Time since last request: 56.657348 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9210aceb798d7d2f971a6628b299a366') in 0.092982 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/Fonts/TMP/Good Brush2 SDF.asset
-  artifactKey: Guid(2a99dad21aa15374195c041353173e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/TMP/Good Brush2 SDF.asset using Guid(2a99dad21aa15374195c041353173e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a31ec1ccf6b6be8dc23bff5db54827') in 0.060293 seconds 
+  Time since last request: 31.101925 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77237863d4a59bdc30a9a37193064fb8') in 0.027284 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 162.087073 seconds.
-  path: Assets/Fonts/TMP/Good Brush SDF.mat
-  artifactKey: Guid(6041592cf30013646a4e69597cfd74c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/TMP/Good Brush SDF.mat using Guid(6041592cf30013646a4e69597cfd74c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991aca26febcb7ca0294335b2696f896') in 0.091459 seconds 
+  Time since last request: 62.823246 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c07b161d7550eaae87eee23f78770') in 0.029606 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 4.939600 ms (FindLiveObjects: 0.651600 ms CreateObjectMapping: 0.225600 ms MarkObjects: 3.951800 ms  DeleteObjects: 0.107900 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 40.552146 seconds.
-  path: Assets/Fonts/TMP/Good Brush SDF 1.mat
-  artifactKey: Guid(921582ef3e118a64685c27322daa6164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/TMP/Good Brush SDF 1.mat using Guid(921582ef3e118a64685c27322daa6164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31484e6a7a2771de61250f1ea0dcc6ba') in 0.053447 seconds 
+  Time since last request: 81.199685 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a5d9e07838d1fceee3304f89527ad') in 0.081767 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.281886 seconds.
-  path: Assets/Fonts/TMP/Good Brush SDF 2.mat
-  artifactKey: Guid(7a22d9cfca1bac343b2e9d55dbf7353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/TMP/Good Brush SDF 2.mat using Guid(7a22d9cfca1bac343b2e9d55dbf7353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbfd4546a5f273d38990dc28bcc04f9') in 0.081622 seconds 
+  Time since last request: 12.662213 seconds.
+  path: Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png
+  artifactKey: Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/sword-transparent-ice-category-5-cable-115632209528px8hwhl7n.png using Guid(a0d7f31d315009c4da445fe2005954e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2b675725d79560d163a4a157a835e') in 0.021856 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.6 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3320.
+Total: 4.868500 ms (FindLiveObjects: 0.526900 ms CreateObjectMapping: 0.326600 ms MarkObjects: 3.888700 ms  DeleteObjects: 0.122600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.214012 seconds.
+  path: Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg
+  artifactKey: Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg using Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ea6330f963812847a7bafb5c70ecd3') in 0.087443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.097396 seconds.
+  path: Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg
+  artifactKey: Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg using Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c3db6a2e37d41751d0384e4346106f') in 0.114768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.248423 seconds.
+  path: Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg
+  artifactKey: Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/657-6574298_simple-sword-transparent-png-image-amp-transparent-background.jpg using Guid(7fc51a2865b278646a50cbb16435ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fb1cc207f980c76b4d002f59cde86a') in 0.043374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.141486 seconds.
+  path: Assets/Course Library/Textures/gratis-png-espada-de-animacion-espada-animada-s.png
+  artifactKey: Guid(36958fd0c7f1d7040b74197af36e037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/gratis-png-espada-de-animacion-espada-animada-s.png using Guid(36958fd0c7f1d7040b74197af36e037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0354e526879566189e84a2f43bfc11') in 0.040222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.182976 seconds.
+  path: Assets/Course Library/Textures/gratis-png-espada-de-animacion-espada-animada-s.png
+  artifactKey: Guid(36958fd0c7f1d7040b74197af36e037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/gratis-png-espada-de-animacion-espada-animada-s.png using Guid(36958fd0c7f1d7040b74197af36e037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4948b1a8c5f11e9841d328f5e44a7ca') in 0.038094 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3400.
+Total: 4.483900 ms (FindLiveObjects: 0.530200 ms CreateObjectMapping: 0.221800 ms MarkObjects: 3.628300 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.141407 seconds.
+  path: Assets/Course Library/Textures/Png.png
+  artifactKey: Guid(536a4371f58a3f74eba2703aaed6c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Png.png using Guid(536a4371f58a3f74eba2703aaed6c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4b520efbc93b9ae166ba4551595943') in 0.097311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.255434 seconds.
+  path: Assets/Course Library/Textures/Png.png
+  artifactKey: Guid(536a4371f58a3f74eba2703aaed6c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Png.png using Guid(536a4371f58a3f74eba2703aaed6c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14e085d3ce8099e33a607a91fe94011') in 0.039599 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.026 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 5.743700 ms (FindLiveObjects: 0.734700 ms CreateObjectMapping: 0.406800 ms MarkObjects: 4.430600 ms  DeleteObjects: 0.167800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.306080 seconds.
+  path: Assets/Course Library/Textures/Linked_Sword_without_background.png
+  artifactKey: Guid(ea43bca7c5d31544184a73faae413397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Linked_Sword_without_background.png using Guid(ea43bca7c5d31544184a73faae413397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585ed0811ce0a210c7ff23a4fa908c5a') in 0.091292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.154804 seconds.
+  path: Assets/Course Library/Textures/Linked_Sword_without_background.png
+  artifactKey: Guid(ea43bca7c5d31544184a73faae413397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Linked_Sword_without_background.png using Guid(ea43bca7c5d31544184a73faae413397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70de7a45afcd454e79894975490db22') in 0.049483 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.6 MB.
+System memory in use after: 114.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3463.
+Total: 4.769000 ms (FindLiveObjects: 0.538000 ms CreateObjectMapping: 0.268800 ms MarkObjects: 3.832500 ms  DeleteObjects: 0.126400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.406081 seconds.
+  path: Assets/Course Library/Textures/Linked_Sword_without_background.jpg
+  artifactKey: Guid(4a14ccfd8421b064aa1e12293ff4c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Linked_Sword_without_background.jpg using Guid(4a14ccfd8421b064aa1e12293ff4c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3377cfb415222a70735c65c88fe17675') in 0.095012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.518150 seconds.
+  path: Assets/Course Library/Textures/Linked_Sword_without_background.jpg
+  artifactKey: Guid(4a14ccfd8421b064aa1e12293ff4c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Linked_Sword_without_background.jpg using Guid(4a14ccfd8421b064aa1e12293ff4c4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547fb3d5500770ab74a190837d02571b') in 0.047205 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3494.
+Total: 5.169500 ms (FindLiveObjects: 0.558300 ms CreateObjectMapping: 0.218200 ms MarkObjects: 4.266000 ms  DeleteObjects: 0.123600 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

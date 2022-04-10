@@ -55,7 +55,7 @@ public class Target : MonoBehaviour
     {
         return new Vector3(Random.Range(-xBounds, xBounds), yBounds);
     }
-    private void OnMouseDown()
+    private void OnMouseOver()
     {
         if (gameManager.gameState == GameManager.GameState.inGame)
         {

@@ -31,15 +31,19 @@ public class GameManager : MonoBehaviour
             return _score;
         }
     }
-        
 
-/// <summary>
-/// Start the gameplay changing the value of the state of the game
-/// </summary>
-    public void StartGame()
+    private void Start()
+    {
+        ShowMaxScore();
+    }
+    /// <summary>
+    /// Start the gameplay changing the value of the state of the game
+    /// </summary>
+    public void StartGame(int difficulty)
     {
         gameState = GameState.inGame;
         StartCoroutine(SpawnTarget());
+        spawnRate /= difficulty;
         score = 0;
         UpdateScore(0);
         titleScreen.gameObject.SetActive(false);
@@ -49,7 +53,8 @@ public class GameManager : MonoBehaviour
     /// Spawns a random object from a list
     /// </summary>
     /// <returns></returns>
-   IEnumerator SpawnTarget()
+    /// <param name="difficulty">integer that defines the difficulty of the game</param>
+    IEnumerator SpawnTarget()
     {
         while (gameState == GameState.inGame)
         {
@@ -67,12 +72,27 @@ public class GameManager : MonoBehaviour
         score += scoreToAdd;
         scoreText.text = "Score: \n" + score;
     }
+    private const string MAX_SCORE = "Max_Score";
 
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE,0);
+        scoreText.text = "Max Score:\n" + maxScore;
+    }
+    private void SetMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        if (score > maxScore)
+        {
+            PlayerPrefs.SetInt(MAX_SCORE, score);
+        }
+    }
     public void GameOver()
     {
         gameOverText.gameObject.SetActive(true);
         gameState = GameState.gameOver;
         restartButton.gameObject.SetActive(true);
+        SetMaxScore();
     }
     public void RestartGame()
     {
