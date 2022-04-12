@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
             return _score;
         }
     }
+    private int numberOfLifes = 4;
+    public List<GameObject> lives;
 
     private void Start()
     {
@@ -47,6 +49,11 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateScore(0);
         titleScreen.gameObject.SetActive(false);
+        numberOfLifes -= difficulty;
+        for (int i = 0; i < numberOfLifes; i++)
+        {
+            lives[i].SetActive(true);
+        }
 
     }
     /// <summary>
@@ -89,10 +96,23 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
-        gameOverText.gameObject.SetActive(true);
-        gameState = GameState.gameOver;
-        restartButton.gameObject.SetActive(true);
-        SetMaxScore();
+        numberOfLifes--;
+        if(numberOfLifes>=0)
+        {
+            Image lifeImage = lives[numberOfLifes].GetComponent<Image>();
+            var tempColor = lifeImage.color;
+            tempColor.a = 0.3f;
+            lifeImage.color = tempColor;
+        }
+
+        if(numberOfLifes<=0)
+        {
+            gameOverText.gameObject.SetActive(true);
+            gameState = GameState.gameOver;
+            restartButton.gameObject.SetActive(true);
+            SetMaxScore();
+        }
+
     }
     public void RestartGame()
     {
